@@ -8,8 +8,9 @@ https://www.youtube.com/watch?v=HEfHFsfGXjs&t
 ![](images/3b1b.JPG)
 
 ### How it works and what it does
-in the video, he explains different methods in how to prove this but in code, I decided that making a program with the formula for elastic collision and just counting all the 
-times it collides with another block or the wall can also work...
+
+I decided to code this in java with javaswing as its the only thing I've learnt so far in my studies which will allow me to add a GUI to my code. providing that the blocks are purely elastic, I implemented the formula for elastic Collision in my code to update the velocity value for a block object for every collision. If the block hits the wall, the velocity changes from negative to positive as there is no energy lost during that collision. We can just count all the times that this collision occurs.
+
 ![](images/elasticCollision.JPG)
 
 ### version 1.0
